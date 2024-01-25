@@ -1,0 +1,23 @@
+        h1{
+            color: blue;text-decoration: underline; text-align: center;
+            font-family: Algerian, serif;font-size: 50px;
+        }
+        h2{
+            color: black; text-align: center;
+        }
+          .Alpha{
+           color: blue;
+       }
+       #Beta{
+           color: darkred;font-size: 50px;
+       }
+
+       .Gama{
+           color: blue;background-color: white;
+       }
+       table{
+           width: 100px;border: red;margin: 25px 0; width: fit-content;
+       }
+
+
+

@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 998;
+    transition: all 0.3s ease;
+
+}
+nav .Navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+nav .Navbar .Logo a{
+    font-weight: 500;
+    font-size: 45px ;
+    color: #4070f4;
+}
+nav .Navbar .Logo{
+
+}
+nav .Navbar .Menu{
+    display: flex;
+    position: relative;
+}
+nav .Navbar .Menu li {
+    list-style: none;
+    margin: 0 10px;
+
+}
+.Navbar .Menu a{
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    padding: 6px 0;
+    transition:  all 0.4s ease;
+}
+.Navbar .Menu a:hover{
+    color: #4070f4;
+}
+nav .sticky .Menu a{
+    color: #4070f4;
+}
+.Home{
+    height: 100vh;
+    width: 100%;
+    background-image: url("Pictures/christian-buehner-DItYlc26zVI-unsplash (1).jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial;
+}
+.Home .HomeContent{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Home .text-one{
+    font-size: 24px;
+    color: black;
+}
+.Home .text-two{
+    font-size: 40px;
+    font-weight: 800;
+    color: black;
+}
+.Home .text-three{
+    color: #4070f4;
+    font-size: 32px ;
+}
+.Home .text-four{
+    font-size: 18px;
+}
+
+.Home .button{
+    margin: 14px 0;
+}
+
+.Home .button button{
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 24px;
+    font-weight: 400;
+    background: #4070f4;
+    color: white;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.4s ease;
+}
+.Home .button button:hover{
+    color: red;
+    background-color: white;
+    border-color: red;
+}
+.Services .Boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Services .Boxes .Box{
+    margin: 20px 0;
+    width: calc(100% / 3 - 20px);
+    text-align: center;
+    border-radius: 12px;
+    padding:  30px 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,12);
+    cursor: default;
+    transition: all 0.4s ease;
+}
+.Services .Boxes .Box .Icon{
+    height: 50px;
+    width: 50px;
+    background-color: #4070f4;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    color: white;
+    margin: 0 auto 18px auto;
+    transition:  all 0.4s ease;
+}
+.Boxes .Box:hover .Icon{
+    background-color: red;
+}
+.title{
+    text-align: center;
+    color: black;
+    text-decoration: double underline;
+    text-decoration-color: #4070f4;
+    font-size: 36px;
+    width: 100%;
+    height: 50px;
+}
+.AboutContent{
+    justify-content: space-between;
+    width: 100%;
+    height: 200vh;
+
+}
+.Picture{
+    width: 300px;
+    height: 200px;
+    background-image: url("Pictures/ian-dooley-d1UPkiFd04A-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+.Table{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+.Table .Speach{
+    width: 50%;
+    height: 38vh;
+    text-align: left;
+    background-color: white;
+    justify-content: left;
+}
+.Table .Speach .Head{
+    background-color: white;
+    font-size: 34px;
+    font-weight: 6000;
+    margin-left: 1px;
+    margin-right: 290px;
+    font-family: Arial;
+}
+.Table .Speach .button button{
+    background: #4070f4;
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 4px;
+    outline: none;
+    border: 2px solid transparent;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all 0.4s ease;
+}
+.Table .Speach .button button:hover{
+    color: red;
+    background-color: white;
+    border-color: red;
+}
+.SKILLS .Explain{
+    width: 30%;
+    background-color: darkorange;
+}
+.SKILLS .Explain .TEN{
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.Language{
+    width: 50%;
+    height: 20vh;
+    background-color: green;
+
+}
+.SKILLS{
+    justify-content: space-between;
+
+
+}
+
+

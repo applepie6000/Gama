@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+body{
+    background-color: darkorange;
+    text-align: center;
+}
+.form{
+    background-color: chartreuse;
+    height: 50vh;
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 380px;
+    margin-top: 50px;
+    padding: 20px
+
+
+
+
+
+}
+.Input-box{
+    margin-top: 20px;
+    color: black;
+}
+.Input-box input{
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    border-left: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+::placeholder{
+    font-size: 15px;
+    font-weight: 400;
+}
+.Age{
+    color: blue;
+}
+.Country{
+    color: red;
+
+}
+.btm{
+    text-align: center;
+}
+.btm input{
+   padding: 10px 30px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btm input:hover{
+    background-color: white;
+    color: red;
+}
+.Menu{
+    text-align: center;
+}
+.Menu ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 40px;
+    color: white;
+    padding: 15px;
+    margin: 10px 10px;
+
+}
+.Logo{
+    text-align: center;
+}
+.Logo a{
+    font-size: 50px;
+    text-decoration: double underline;
+    text-decoration-color: black ;
+    color: blue ;
+    padding: 10px;
+    text-transform: uppercase;
+}

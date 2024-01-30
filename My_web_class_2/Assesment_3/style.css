@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+
+}
+button{
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    width: 8%;
+    border:  2px solid blue;
+    border-radius: 2px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+.Home{
+    background-image: url("Pictures/christian-buehner-DItYlc26zVI-unsplash (1).jpg");
+    background-size: cover;
+}
+spam{
+    color: blue;
+    font-size: 30px;
+    margin: 0;
+}
+.Beta{
+    margin: 0;
+    display: flex;
+    font-size: 35px;
+    text-align: center;
+}
+.Beta ul li a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+
+}
+.Beta ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+
+    margin-top: 1px;
+}
+
+.Beta h1{
+    color: blue;
+    font-size: 40px;
+    font-weight: 400;
+}
+.Name{
+    font-size: 38px;
+    font-weight: 900;
+}
+.CV{
+    color: white;
+    background-color: blue;
+    width: 100px;
+}
+.ABOUTUS{
+    display: flex;
+
+}
+.Aboutus h1 {
+    text-align: center;
+    text-decoration: double underline;
+    color: black;
+    text-decoration-color: blue;
+}
+.Aboutus .Lorem{
+    width: 500px;
+    height: 100px;
+    margin-left: 400px;
+    margin-top: 50px;
+
+    text-align: center;
+
+
+
+
+}
+.Photo{
+    background-image: url("Pictures/ian-dooley-d1UPkiFd04A-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin-top: ;
+}
+.Contact h1{
+    text-align: center;
+    text-decoration: double underline;
+    text-decoration-color: blue;
+    font-weight: 500;
+    color: black;
+    font-size: 35px;
+}
+.Contact h2{
+    text-align: center;
+    color: black;
+    font-size: 34px;
+}
+.Contact .Lorem{
+    text-align: center;
+}
+.Lorem{
+    font-size: 24px;
+    color: black;
+}
+<div class="Beta">
+
+
+  <ul>
+       Portfolio.
+      <li><a href="#">Home</a></li>
+    <li><a href="About.html">About</a></li>
+    <li><a href="Skills.html">Skills</a></li>
+    <li><a href="Services.html">Services</a></li>
+    <li><a href="Contact.html">Contact</a></li>
+  </ul>
+</div>
+<p>
+    Hello,
+     <div class="Name"> I'm Erick Mutura</div>
+    <spam>Software developer</spam>
+<br>
+    From Nairobi
+
+</p>
+<button><a href="">Hire Me</a></button>
+
+
+
+
+
+
+
+
+
+
